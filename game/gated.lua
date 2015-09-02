@@ -129,7 +129,7 @@ function server.register_handler(name)
 end
 
 function server.get_agents()
-	local agnets = {}
+	local agents = {}
 	for k, v in pairs(users) do
 		agents[k] = v.agent
 	end
